@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous")
+    body.container
+        h1="Listing forms:"
+        ul
+            each myList in lists
+                li
+                    h4="Name: " +myList.name
+                    h4="Email: " +myList.email
+                    h4="Hours per week: " +myList.hours
+
+                    a(href="/modify/"+myList._id) Modify
+                    br
+                    a(href="/remove/"+myList._id) Remove
+                
+    //Url sivut
+    a(href='/') Fill a new form

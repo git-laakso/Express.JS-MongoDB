@@ -1,0 +1,15 @@
+doctype html
+head
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous")
+body.container
+    h3="Fill in the blanks"
+    form#form(action="/", method="POST")
+        div.form-group
+            label="Your Name"
+            input.form-control(type="text", name="name")
+            label="Your email address"
+            input.form-control(type="text", name="email")
+            label="How many hours can you work in a week?"
+            input.form-control(type="text", name="hours")
+            
+            button.btn-btn-primary(type="submit") Send the form
