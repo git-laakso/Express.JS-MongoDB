@@ -1,4 +1,4 @@
-# Express.JS-MongoDB-CRUD
+# Node.js-MongoDB-CRUD
 Creating a webserver that uses MongoDB. As a front-end view we're using Pug. Data can be saved locally or in MongoDB <a href="https://codeforgeek.com/mongodb-atlas-node-js/">Atlas</a> If you are using MongoDB locally, you can view saves with <a href="https://www.mongodb.com/products/compass/">MongoDB Compass</a>
 # Idea
 The idea is to ask user 3 inputs:
